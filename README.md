@@ -20,3 +20,7 @@ $ conda install gepetto-viewer gepetto-viewer-corba -c conda-forge
 
 ### Plotly
 $conda install -c plotly plotly=5.13.1 
+
+### Troubleshooting
+When runing the files you'll have an error when lunching meshcat. It seems that the package typing has some issues. In order to run the files
+$ pip uninstall typing
