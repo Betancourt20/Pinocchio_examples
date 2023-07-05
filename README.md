@@ -24,3 +24,6 @@ $conda install -c plotly plotly=5.13.1
 ### Troubleshooting
 When runing the files you'll have an error when lunching meshcat. It seems that the package typing has some issues. In order to run the files
 $ pip uninstall typing
+
+If you want to use the interactive ``%matplotlib widget`` probably you will get the following error ``  Uncaught exception in ZMQStream callback``. I solved it with
+$ pip install --upgrade ipyflow jupyter_client jupyter_server jupyter_core tornado
